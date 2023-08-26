@@ -247,7 +247,6 @@ class AllPlotRender extends Component {
       // {cardpills.map((item) => {
       //   return (
       <Card className="card-artycard card" style={{ height: "36rem" }}>
-        {/* <a href={this.props.art.imgurl} target='_blank'> */}
         <div className="card-img-top-all-art">
           <Link
             to={
