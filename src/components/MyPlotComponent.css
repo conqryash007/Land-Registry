@@ -1,0 +1,287 @@
+.rows {
+  margin-top: 5%;
+  margin-left: 2%;
+}
+.tp-img {
+  height: 200px;
+  width: 100%;
+}
+
+.cards {
+  display: inline-block;
+  float: left;
+  margin-right: 20%;
+}
+
+#search1 {
+  display: inline-block;
+  float: left;
+  font-size: 100%;
+  margin-left: 1%;
+}
+
+.search-bar {
+  display: inline-block;
+  float: left;
+  width: 72%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.btn2 {
+  width: 95%;
+  margin-left: 1%;
+}
+
+.form-style {
+  width: 120%;
+}
+
+.form-body {
+  padding: 2%;
+}
+
+.modal-popup {
+  left: 9%;
+  top: 5%;
+}
+.modalDiv {
+  right: 9%;
+  top: 5%;
+}
+
+.divCard {
+}
+
+.division-forms {
+  display: flex;
+  justify-content: space-evenly;
+}
+.div-form {
+  width: 200px;
+  border: 1px solid grey;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.cte {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cte p {
+  font-size: 18px !important;
+}
+
+@media screen and (min-width: 400px) {
+  .search-bar {
+    width: 75%;
+  }
+  .rows {
+    margin-left: 9%;
+    margin-bottom: 20%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .rows {
+    margin-left: 15%;
+  }
+  .form-style {
+    width: 110%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .search-bar {
+    width: 58%;
+    margin-right: 2%;
+    margin-top: 1%;
+  }
+  .btn2 {
+    width: 20%;
+    margin-top: 0.2%;
+  }
+  .rows {
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .modal-content {
+    width: 100%;
+  }
+  .form-style {
+    margin-left: 10%;
+  }
+  .modal-popup {
+    width: 60%;
+    margin-right: 30%;
+  }
+}
+
+@media screen and (min-width: 630px) {
+  .rows {
+    margin-left: 3%;
+    margin-bottom: 55%;
+    position: relative;
+    left: -2%;
+  }
+  .cards {
+    margin: 0%;
+    margin-right: 16%;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .form-style {
+    margin-top: 5%;
+    margin-left: 14%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .rows {
+    margin-bottom: 50%;
+  }
+  .cards {
+    margin-right: 150px;
+  }
+  .form-style {
+    width: 170%;
+    margin-left: 5%;
+  }
+  .modal-content {
+    width: 175%;
+  }
+  .col1,
+  .col2 {
+    display: inline;
+    float: left;
+    width: 48%;
+  }
+  .col1 {
+    margin-right: 4%;
+  }
+  .form-style {
+    margin-top: 7%;
+    margin-left: 5%;
+  }
+  .modal-popup {
+    width: 38%;
+    margin-right: 48%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #search1 {
+    font-size: 110%;
+  }
+  .search-bar {
+    width: 59%;
+    margin-right: 2%;
+    margin-top: 0.8%;
+  }
+  .btn2 {
+    width: 24%;
+    margin-top: 0.2%;
+  }
+  .rows {
+    left: 0%;
+    margin-bottom: 45%;
+  }
+  .cards {
+    margin-left: 1%;
+    margin-right: 130px;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .form-style {
+    margin-left: 8%;
+  }
+  .modal-popup {
+    width: 33%;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  .rows {
+    left: -5%;
+    margin-bottom: 38%;
+  }
+  .cards {
+    margin-right: 70px;
+  }
+  .form-style {
+    margin-left: 12%;
+  }
+  .modal-popup {
+    width: 30%;
+    margin-right: 51%;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  #search1 {
+    font-size: 120%;
+  }
+  .search-bar {
+    width: 60%;
+    margin-right: 2%;
+    margin-top: 0.8%;
+  }
+  .btn2 {
+    width: 25%;
+    margin-top: 0.3%;
+  }
+  .form-style {
+    margin-left: 15%;
+  }
+  .modal-popup {
+    width: 28%;
+    margin-right: 52%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #search1 {
+    font-size: 120%;
+  }
+  .search-bar {
+    width: 63%;
+    margin-right: 2%;
+    margin-top: 0.8%;
+  }
+  .btn2 {
+    width: 22%;
+    margin-top: 0.4%;
+  }
+  .rows {
+    left: -3%;
+    margin-bottom: 30%;
+  }
+  .form-style {
+    margin-left: 18%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .form-style {
+    margin-left: 22%;
+  }
+  .modal-popup {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .rows {
+    left: -8%;
+  }
+  .cards {
+    margin-right: 8px;
+  }
+}

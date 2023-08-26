@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.navbar-dark {
+  background-color: #1c1c1c;
+}
+
+.footer {
+  background-color: #1c1c1c;
+  margin: 0px auto;
+  padding: 0px 0px 0px 0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 80%;
+}
+
+.App-link {
+  color: #09d3ac;
+}
